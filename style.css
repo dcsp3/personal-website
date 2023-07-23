@@ -258,19 +258,27 @@ span {
 
 .projects-container .projects-box {
     position: relative;
+    scale: (.75);
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--second-bg-color);
     overflow: hidden;
-    display: flex;
 }
 
-.projects-box img {
-    width: 100%;
+.projects-box .project-img {
+    font-size: 13rem;
+    text-align: center;
+    color: var(--text-color);
+    background: var(--second-bg-color);
     transition: .5s ease;
 }
 
-.projects-box:hover img {
+.project-img i {
+    font-size: 10rem;
+}
+
+.projects-box:hover .project-img {
     transform: scale(1.1);
+    color: var(--second-bg-color);
 }
 
 .projects-box .projects-layer {
