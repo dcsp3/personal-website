@@ -40,7 +40,7 @@ ScrollReveal({
 })
 
 ScrollReveal().reveal('.home-content, .heading', {origin: 'top'});
-ScrollReveal().reveal('.home-img, .services-container, .projects-box', {origin: 'bottom'});
+ScrollReveal().reveal('.home-img, .services-container, .projects-box, .contact-container', {origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1, .title', {origin: 'left'});
 ScrollReveal().reveal('.home-content p, .education-box', {origin: 'right'});
 

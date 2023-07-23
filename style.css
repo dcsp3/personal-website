@@ -15,7 +15,7 @@
     --bg-color: #212121;
     --second-bg-color: #3d3d3d;
     --text-color: #ededed;
-    --main-color: #bb9f00;
+    --main-color: #ffc14d;
 }
 
 html {
@@ -82,6 +82,7 @@ section {
 }
 
 .home-img img {
+    width: 25vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 
