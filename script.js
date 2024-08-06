@@ -45,7 +45,7 @@ ScrollReveal().reveal('.home-content h1, .title', {origin: 'left'});
 ScrollReveal().reveal('.home-content p, .education-box', {origin: 'right'});
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'CS Student', 'Freelancer'],
+    strings: ['Software Engineer', 'Frontend Developer', 'CS Student', 'Freelancer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
